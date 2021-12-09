@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getdifficulty'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getdifficulty",
         parameters:[ ],

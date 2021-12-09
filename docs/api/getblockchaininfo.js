@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getblockchaininfo'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getblockchaininfo",
         parameters:[ ],

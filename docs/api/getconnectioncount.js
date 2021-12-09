@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getconnectioncount'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getconnectioncount",
         parameters:[ ],

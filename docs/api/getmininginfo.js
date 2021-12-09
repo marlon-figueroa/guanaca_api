@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getmininginfo'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getmininginfo",
         parameters:[ ],

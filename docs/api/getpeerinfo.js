@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getpeerinfo'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getpeerinfo",
         parameters:[ ],

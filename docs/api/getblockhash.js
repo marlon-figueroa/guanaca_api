@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getblockhash'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getblockhash",
         parameters:[ 

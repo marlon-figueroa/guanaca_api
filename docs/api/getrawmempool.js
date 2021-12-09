@@ -1,6 +1,6 @@
 module.exports = {
     get:{
-        tags:['getrawmempool'],
+        tags:['API'],
         description: "Get a Operation",
         operationId: "getrawmempool",
         parameters:[ ],
