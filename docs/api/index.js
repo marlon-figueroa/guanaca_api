@@ -5,9 +5,13 @@
  */
 
 const getblockcount = require("./getblockcount");
+const getbestblockhash = require("./getbestblockhash");
+const getconnectioncount = require("./getconnectioncount");
 
 module.exports = {
   paths: {
     '/api/getblockcount': { ...getblockcount },
+    '/api/getbestblockhash': { ...getbestblockhash },
+    '/api/getconnectioncount': { ...getconnectioncount },
   },
 };
