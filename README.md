@@ -1,5 +1,6 @@
 # guanaca_api
 Api para hacer transacciónes con jsonrpc a bitcoin ambientes testnet
+![Alt text](https://github.com/marlon-figueroa/guanaca_api/blob/master/Banner.png?raw=true "Title")
 
 ## Ejecución
 Para ejecutar la api ejecutar:
