@@ -13,3 +13,6 @@ En caso de tener remoto usar la ip o dominio y consultar si el puerto `3000` es 
 
 ## Operaciones
 ![Alt text](https://github.com/marlon-figueroa/guanaca_api/blob/master/imagenes/Operaciones.png?raw=true "Title")
+
+### Prueba de operación
+![Alt text](https://github.com/marlon-figueroa/guanaca_api/blob/master/imagenes/ConsultaTxn.png?raw=true "Title")
