@@ -8,6 +8,6 @@ const getblockcount = require("./getblockcount");
 
 module.exports = {
   paths: {
-    '/getblockcount': { getblockcount },
+    '/api/getblockcount': { ...getblockcount },
   },
 };

@@ -1,22 +1,12 @@
 module.exports = {
     get:{
         tags:['getblockcount'],
-        description: "Get a todo",
-        operationId: "getTodo",
-        parameters:[
-            {
-                name:"id",
-                in:"path",
-                schema:{
-                    $ref:"#/components/schemas/id"
-                },
-                required:true,
-                description: "A single todo id"
-            }
-        ],
+        description: "Get a Operation",
+        operationId: "getblockcount",
+        parameters:[ ],
         responses:{
             '200':{
-                description:"Todo is obtained",
+                description:"Operation is obtained",
                 content:{
                     'application/json':{
                         schema:{
@@ -26,13 +16,13 @@ module.exports = {
                 }
             },
             '404':{
-                description: "Todo is not found",
+                description: "getblockcount is not found",
                 content:{
                     'application/json':{
                         schema:{
                             $ref:'#/components/schemas/Error',
                             example:{
-                                message:"We can't find the todo",
+                                message:"We can't find the operaction",
                                 internal_code:"Invalid id"
                             }
                         }
