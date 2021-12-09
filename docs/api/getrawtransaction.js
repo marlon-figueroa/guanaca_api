@@ -1,9 +1,19 @@
 module.exports = {
     get:{
-        tags:['getmininginfo'],
+        tags:['getrawtransaction'],
         description: "Get a Operation",
-        operationId: "getmininginfo",
-        parameters:[ ],
+        operationId: "getrawtransaction",
+        parameters:[ 
+            {
+                name:"hash",
+                in:"path",
+                schema:{
+                    $ref:"#/components/schemas/id"
+                },
+                required:true,
+                description: "An id of a operation"
+            }
+        ],
         responses:{
             '200':{
                 description:"Operation is obtained",
@@ -16,7 +26,7 @@ module.exports = {
                 }
             },
             '404':{
-                description: "getmininginfo is not found",
+                description: "getrawtransaction is not found",
                 content:{
                     'application/json':{
                         schema:{

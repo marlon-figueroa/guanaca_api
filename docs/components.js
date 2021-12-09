@@ -12,7 +12,22 @@
             id:{
                 type:'string',
                 description:"An id of a operation",
-                example: "12225588777"
+                example: "998f169318eb1d8d2a4e53dce2712f5678c6f06e"
+            },
+            hash:{
+                type:'string',
+                description:"An string of a operation cipher",
+                example: "998f169318eb1d8d2a4e53dce2712f5678c6f06e"
+            },
+            index:{
+                type:'string',
+                description:"An number of a operation",
+                example: "1"
+            },
+            hex:{
+                type:'string',
+                description:"An hex of a operation",
+                example: "1ac23af"
             },
             Todo:{
                 type:'object',
@@ -20,7 +35,7 @@
                     id:{
                         type:'string',
                         description:"Operation identification number",
-                        example:"12225588777"
+                        example:"998f169318eb1d8d2a4e53dce2712f5678c6f06e"
                     },
                     title:{
                         type:'string',

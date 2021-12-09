@@ -1,9 +1,19 @@
 module.exports = {
     get:{
-        tags:['getmininginfo'],
+        tags:['getblockhash'],
         description: "Get a Operation",
-        operationId: "getmininginfo",
-        parameters:[ ],
+        operationId: "getblockhash",
+        parameters:[ 
+            {
+                name:"hash",
+                in:"path",
+                schema:{
+                    $ref:"#/components/schemas/index"
+                },
+                required:true,
+                description: "An number of a operation"
+            }
+        ],
         responses:{
             '200':{
                 description:"Operation is obtained",
@@ -16,7 +26,7 @@ module.exports = {
                 }
             },
             '404':{
-                description: "getmininginfo is not found",
+                description: "getblockhash is not found",
                 content:{
                     'application/json':{
                         schema:{

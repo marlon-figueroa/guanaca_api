@@ -1,8 +1,8 @@
 module.exports = {
     get:{
-        tags:['getmininginfo'],
+        tags:['getpeerinfo'],
         description: "Get a Operation",
-        operationId: "getmininginfo",
+        operationId: "getpeerinfo",
         parameters:[ ],
         responses:{
             '200':{
@@ -16,7 +16,7 @@ module.exports = {
                 }
             },
             '404':{
-                description: "getmininginfo is not found",
+                description: "getpeerinfo is not found",
                 content:{
                     'application/json':{
                         schema:{
